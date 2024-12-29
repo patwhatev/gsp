@@ -135,7 +135,8 @@ main {
 
 .statsContainer {
   margin-top: 10% !important;
-  text-align: center;
+  text-align: left;
+  margin-left: 6%;
 }
 
 .postCard>p {
