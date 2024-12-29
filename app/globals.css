@@ -6,9 +6,15 @@
   font-style: italic;
 }
 
+@font-face {  
+  font-family: Magical;
+  src: url(/public/fonts/Magical_Night.ttf) format("truetype");
+}
+
 header h1 {
   font-size: 44px;
   font-style: normal;
+  font-family: Magical !important;
 }
 
 h1 {
@@ -165,6 +171,11 @@ article div {
   display: flex;
   flex-direction: column;
   gap: 14px;
+}
+
+/* blog post title */
+article h1 {
+  margin-top: 18px;
 }
 
 article img {
