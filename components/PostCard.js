@@ -5,6 +5,7 @@ export default function PostCard(props) {
     return (
         <Link className="unstyled" href={`/post/${post.slug}`}>
             <div className="postCard">
+                <p>penis</p>
                 <h3>{post.title}</h3>
                 <img src ={post.img_path} />
                 <div className="after">

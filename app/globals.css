@@ -95,7 +95,7 @@ main {
 
 .postCard h3 {
   z-index: 5000 !important;
-  margin-top: -20px !important;
+  margin-top: -40% !important;
 }
 
 .postCard .after {
