@@ -3,20 +3,22 @@ import Link from "next/link";
 export default function PostCard(props) {
     const { post } = props
     return (
-        <Link className="unstyled" href={`/recipe/${post.slug}`}>
+        <Link className="unstyled" href={`/post/${post.slug}`}>
             <div className="postCard">
                 <h3>{post.title}</h3>
-                <p>{post.bio}</p>
-                <div className="statsContainer">
-                    <div>
-                        <h5>Prep Time</h5>
-                        <p>{post.prep_time}</p>
+                <img src ={post.img_path} />
+                <div className="after">
+                    <p className="bio">{post.bio}</p>
+                    <div className="statsContainer">
+                        <div>
+                            <h5>Date</h5>
+                            <p>{post.date} </p>
+                        </div>
+                        <div>
+                            {/* <h5>Cook Time</h5> */}
+                        </div>
                     </div>
-                    <div>
-                        <h5>Cook Time</h5>
-                        <p>{post.cook_time}</p>
-                    </div>
-                </div>
+                </div>    
             </div>
         </Link>
     )

@@ -5,7 +5,7 @@ import fs from 'fs'
 import matter from "gray-matter"
 
 function getPostContent(slug) {
-    const folder = 'recipes/'
+    const folder = 'posts/'
     const file = folder + `${slug}.md`
     const content = fs.readFileSync(file, 'utf8')
 
@@ -14,25 +14,25 @@ function getPostContent(slug) {
 }
 
 export const generateStaticParams = async () => {
-    const posts = getPostMetadata('recipes')
+    const posts = getPostMetadata('posts')
     return posts.map((post) => ({ slug: post.slug }))
 }
 
 export async function generateMetadata({ params, searchParams }) {
     const id = params?.slug ? ' ⋅ ' + params?.slug : ''
     return {
-        title: `The Bubbly Baker ${id.replaceAll('_', ' ')}`
+        title: `Gay Disabled Pornography ${id.replaceAll('_', ' ')}`
     }
 }
 
-export default function RecipePage(props) {
-
+export default function PostPage(props) {
     const slug = props.params.slug
     const post = getPostContent(slug)
     console.log(post)
     return (
         <main>
             <article>
+                <img src={post.data.img_path} />
                 <Markdown>{post.content}</Markdown>
             </article>
         </main>

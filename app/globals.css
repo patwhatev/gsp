@@ -2,6 +2,25 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+}
+
+header h1 {
+  font-size: 44px;
+  font-style: normal;
+}
+
+h1 {
+  font-size: 33px;
+}
+
+h2 {
+  color: #a90000
+}
+
+p {
+  color: #999;
 }
 
 body {
@@ -9,7 +28,8 @@ body {
   flex-direction: column;
   padding: 14px;
   min-height: 100vh;
-  color: #1e293b;
+  color: #fff;
+  background-color: #000;
   gap: 14px;
 }
 
@@ -19,6 +39,21 @@ footer {
   max-width: 800px;
   margin: 0 auto;
   width: 100%;
+}
+
+/*  */
+/* END GENRAL STUFF */
+/*  */
+
+
+
+
+
+/* search box */
+main input {
+  background-color: #333;
+  border: none;
+  display: none;
 }
 
 header a {
@@ -40,30 +75,77 @@ main {
 .postsContainer {
   display: grid;
   grid-template-columns: repeat(1, minmax(0, 1fr));
+  overflow: hidden;
+  position: relative;
   gap: 14px;
 }
 
 .postCard {
   padding: 14px;
-  background: white;
+  background: black;
   display: flex;
   flex-direction: column;
+  overflow: hidden;
+  height: 200px;
+  flex-basis: 30%;
+  position: relative;
   gap: 14px;
   padding: 14px;
-  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
-  border-radius: 14px;
-  height: 100%;
-  border: 1px solid transparent;
-  transition-duration: 200ms;
 }
 
-.postCard:hover {
-  border-color: #cbd5e1;
+.postCard h3 {
+  z-index: 5000 !important;
+  margin-top: -20px !important;
+}
+
+.postCard .after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; 
+  text-align: center;
+  margin: auto;
+  display: none;
+  color: #FFF;
+}
+.postCard:hover .after {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background: rgba(0, 0, 0, .6);
+}
+
+.postCard img {
+  display:block;
+    position: absolute;
+    left: -1000%;
+    right: -1000%;
+    top: -1000%;
+    bottom: -1000%;
+    margin: auto;
+    min-height: 100%;
+    min-width: 100%;
+}
+
+.postCard:hover .bio {
+  margin-top: 10%;
+}
+
+.statsContainer {
+  margin-top: 10% !important;
+  text-align: center;
 }
 
 .postCard>p {
-  flex: 1;
-  color: #475569;
+  /* flex: 1; */
+  color: #333;
+  font-size: 99px;
+  text-wrap: nowrap;
+  overflow: hidden;
+white-space: nowrap;
+  text-overflow: clip !important;
 }
 
 
@@ -82,6 +164,10 @@ article div {
   display: flex;
   flex-direction: column;
   gap: 14px;
+}
+
+article img {
+  max-width: 100%;
 }
 
 article div ul {
