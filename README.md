@@ -6,7 +6,8 @@ ensure you're using node 20 *
 npm run dev to see autosave changes, etc. etc. 
 
 ## Deployment
-npm run build
+npm run dev (will use hot load that way)
+next build
 git add / commit / push 
 vercel
 select your project (gsp)
