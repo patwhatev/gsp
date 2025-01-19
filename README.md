@@ -9,3 +9,4 @@ npm run dev to see autosave changes, etc. etc.
 npm run build
 git add / commit / push 
 vercel
+select your project (gsp)
