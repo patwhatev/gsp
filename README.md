@@ -11,3 +11,5 @@ next build
 git add / commit / push 
 vercel
 select your project (gsp)
+vercel --prod
+
