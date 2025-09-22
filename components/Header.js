@@ -8,7 +8,7 @@ export default function Header() {
     <header>
       <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
         <Link href={'/'}>
-          <h1>GaySexyPenis</h1>
+          <h1>Gay|Sexy|Penis</h1>
         </Link>
         <AudioToggle />
       </div>

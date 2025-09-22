@@ -14,7 +14,8 @@
 header h1 {
   font-size: 44px;
   font-style: normal;
-  font-family: Magical !important;
+  text-transform: uppercase;
+  /* font-family: Magical !important; */
 }
 
 h1 {
