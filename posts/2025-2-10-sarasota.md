@@ -9,6 +9,6 @@ description: "i love tiki drinks"
 # SARASOTA
 
 ## i love tiki drinks
-i have a difficult time hanging out with families that are well off and their parents stay together. but i love ellie's family, they always treat me nice. every day we would go to the beach and i would only bring my wrist watch - if i left to go somewhere i would meet them at a certain time and place. at night we would listen to rainforest sounds. her mom texted us after we went home that i left my underwear in the bed
+i have a difficult time hanging out with families that are well off and their parents stay together. but i love ellie's family, they always treat me nice. every day we would go to the beach and i would only bring my wrist watch - if i left to go somewhere i would meet them at a certain time and place. at night we would listen to rainforest sounds to fall asleep. her mom texted us after we went home that i left my underwear in the bed
 
 

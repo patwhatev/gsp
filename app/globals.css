@@ -23,11 +23,13 @@ h1 {
 }
 
 h2 {
-  color: #a90000
+  color: #a90000;
+  text-transform: capitalize;
 }
 
 p {
   color: #999;
+  text-transform: lowercase;
 }
 
 body {
