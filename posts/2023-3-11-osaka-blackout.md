@@ -1,12 +1,12 @@
 ---
-title: "Osaka Blackout"
+title: "Osaka"
 date: "2023 - March"
 img_path: "https://images.squarespace-cdn.com/content/53667a41e4b0e77173cb3dd1/2ed6a93a-bef8-464b-8441-638512ad2e7a/R0003310.jpg?content-type=image%2Fjpeg"
 description: "working graveyard in japan is hard"
 ---
 
 
-# OSAKA BLACKOUT
+# OSAKA
 
 ## working graveyard in osaka is hard
 you start work at 11pm and work until 7am - whispering in meetings with very little light or energy. eating over the night hours is weird and it's hard to find healthy food to eat cheaply in japan that you can prepare at home. 

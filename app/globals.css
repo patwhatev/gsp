@@ -6,9 +6,9 @@
   font-style: italic;
 }
 
-@font-face {  
+@font-face {
   font-family: Magical;
-  src: url(/public/fonts/Magical_Night.ttf) format("truetype");
+  src: url(/fonts/Magical_Night.ttf) format("truetype");
 }
 
 header h1 {
@@ -102,6 +102,11 @@ main {
 .postCard h3 {
   z-index: 5000 !important;
   margin-top: -40% !important;
+  text-transform: uppercase;
+}
+
+.postCard h5 {
+  text-transform: uppercase;
 }
 
 .postCard .after {
@@ -140,9 +145,10 @@ main {
 }
 
 .statsContainer {
-  margin-top: 10% !important;
+  position: absolute;
+  bottom: 14px;
+  left: 14px;
   text-align: left;
-  margin-left: 6%;
 }
 
 .postCard>p {

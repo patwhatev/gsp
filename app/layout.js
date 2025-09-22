@@ -1,6 +1,6 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
-import Link from "next/link";
+import ClientLayout from "../components/ClientLayout";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -10,26 +10,12 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
-
-  let header = (
-    <header>
-      <Link href={'/'}>
-        <h1>GaySexyPenis</h1>
-      </Link>
-    </header>
-  )
-
-  let footer = (
-    <footer>
-      <p>XXXXXXXX</p>
-    </footer>
-  )
   return (
     <html lang="en">
       <body className={inter.className}>
-        {header}
-        {children}
-        {footer}
+        <ClientLayout>
+          {children}
+        </ClientLayout>
       </body>
     </html>
   );
