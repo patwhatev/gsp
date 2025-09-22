@@ -7,7 +7,8 @@
     "build": "npx next build",
     "start": "npx next start",
     "lint": "npx next lint",
-    "post": "node create-post.js"
+    "post": "node create-post.js",
+    "deploy": "./scripts/deploy.sh"
   },
   "dependencies": {
     "gray-matter": "^4.0.3",
