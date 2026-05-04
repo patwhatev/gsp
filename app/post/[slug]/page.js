@@ -21,7 +21,7 @@ export const generateStaticParams = async () => {
 export async function generateMetadata({ params, searchParams }) {
     const id = params?.slug ? ' ⋅ ' + params?.slug : ''
     return {
-        title: `Gay Disabled Pornography ${id.replaceAll('_', ' ')}`
+        title: `Free Extreme Humiliation Online No Credit Card ${id.replaceAll('_', ' ')}`
     }
 }
 
